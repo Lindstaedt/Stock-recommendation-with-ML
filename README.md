@@ -10,6 +10,12 @@ The goal is to build tool that can make trading recommendations for stock purcha
 
 ## Structure
 
+1. Loading historic stock data from Quandl
+2. Building data set for training
+ 1. Strategy definition
+ 2. Additional feature generation
+ 3. Reshaping data for training set
+3. Machine Learning
 
 
 ## File Descriptions
