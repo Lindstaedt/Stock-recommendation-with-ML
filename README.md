@@ -2,7 +2,7 @@
 
 ## Installation
 This project is using the Anaconda distribution of Python version 3.5. Libraries used listed in detail in the requirements.txt file. They primarily include Pandas, Matplotlib, Numpy, Seaborn, TA-Lib (https://github.com/mrjbq7/ta-lib), and Pandas Datareader. Additionally, TPOT (https://epistasislab.github.io/tpot/) is used.
-A free key from Quandl.com is required to load historical stock data. Locally, the notebooks will save data in a subfolder "/data" that is not included in this repo since all data is built from the Quandl data.
+A free key from Quandl.com is required to load historical stock data. 
 
 ## Project Motivation
 This project is the capstone project of my completion of the Udacity Data Science Nanodegree.
@@ -26,7 +26,7 @@ The goal is to build tool that can make trading recommendations for stock purcha
 
 Additional files and folders
  - confidential-API-key.txt - not included in the GitHub repo - a file containing my personal Quandl API key
- - /data subfolder - not included in repo but will be used by notebooks to temporarily save generated dataset that will be processed in the next workbooks
+ - /data subfolder - contains preprocessed data, model predictions, and other intermediate datasets that are used by the notebooks
  - /src/models/TPOT - output from TPOT optimizer
  
 ## Results
