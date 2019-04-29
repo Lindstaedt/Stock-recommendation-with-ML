@@ -1,4 +1,5 @@
-confidential-API-key.txt
+﻿confidential-API-key.txt
+notebooks/dask-worker-space
 
 # exclude data from source control by default
 
