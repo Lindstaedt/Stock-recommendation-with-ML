@@ -2,7 +2,7 @@
 notebooks/dask-worker-space
 
 # exclude data from source control by default
-
+data/
 
 # Created by https://www.gitignore.io/api/python,pycharm+all
 # Edit at https://www.gitignore.io/?templates=python,pycharm+all
